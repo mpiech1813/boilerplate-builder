@@ -4,7 +4,7 @@ const app = require('../server/server');
 const server = supertest(app);
 
 describe('This is a blank test', () => {
-  it('should fail', () => {
-    expect(1 + 2).toEqual(4);
+  it('should pass', () => {
+    expect(1 + 2).toEqual(3);
   });
 });
